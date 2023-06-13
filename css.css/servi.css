@@ -1,0 +1,44 @@
+ *{
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+} 
+
+.item{ 
+    height: auto;
+    background: rgb(233, 245, 174);
+    border-radius: 10px;
+    color: rgb(211, 113, 21);
+}
+.item h1{
+    justify-content: center;
+    text-align: center;
+    margin: 9.5px;
+}
+.tituloh3{
+    margin: 20px;
+    color: rgb(128, 108, 69);
+    font-size: 24px;
+}
+.texto2 {
+    font-size:20px;
+    text-indent: 10px;
+    height: auto;
+    color: rgb(165, 123, 33)
+    
+}
+
+.tituloser h2{
+    color: rgb(224, 115, 75);
+    padding: 10px;
+}  
+.texto2{
+    color: rgb(44, 39, 31);
+    text-indent: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,49 @@
+.titmai{
+    color: rgb(218, 129, 14);
+    text-align: center;
+}
+
+.tit {
+    width: 100%;
+    max-width: 70rem;
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: center;
+}
+@media screen and (max-width:500px) {
+    .tit{
+        flex-direction: column;
+    }
+    
+}
+
+.foto {
+    box-shadow: 0 0 5px rgb(201, 162, 21);
+    flex-basis: calc(0.05% - 0.5em);
+    min-width: 20em;
+    padding: 50px;
+    border-radius: 10px;
+    height: 400px;
+    
+}  
+.foto img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10%;
+    box-shadow: 0 0 5px rgb(26, 25, 23);
+
+}
+.foto h3{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(216, 27, 27);
+
+}
+
+.foto p{
+    padding: auto;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(77, 56, 13, 0.908);
+}

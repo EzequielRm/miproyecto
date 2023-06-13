@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+} 
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: #050505fe;
+} 
+.inix img{
+    width: 12%;
+    border-radius: 100%;
+    position: relative;
+    left: 610px;
+    padding: 10px;
+}
+.inix h1{
+    font-style: italic;
+    font-size: 4.5em;
+    font-weight: 140;
+    display: inline-block;
+    position: relative;
+    left:100px; 
+    color: rgb(235, 120, 5);
+}
+
+/* ESTILO NAVBAR */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+nav ul li {
+    flex-grow: 2;
+}
+nav ul li a{
+    background-color: rgba(221, 165, 61, 0.765);
+    color: rgb(33, 31, 30);
+    text-decoration: none;
+    padding: 5px 6px;
+    display: block;
+    text-align: center;
+}
+nav ul li:hover {
+    background-color: rgb(42, 23, 23);
+} 
+/* El pie de mi pagina  */
+
+footer p {
+    clear: both;
+    background-color: rgba(221, 165, 61, 0.765);
+    padding: 50px ;
+    text-align: center;
+    margin-top: 20px;
+} 
+
+nav ul li a.activo {
+    background-color: rgba(210, 151, 74, 0.871);
+}
+
+main {
+    margin: 100px;
+    position: relative;
+    left: 20px;
+
+}
+
+.titulomain h1{
+    color: rgb(202, 125, 24);
+    text-align: center;
+    font-family: lato;
+    margin: 50px 0px;
+    font-size: 3.9em;
+}
+
+.titulomain img{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: auto;
+}
+.titulomain img{
+    width: 100%;
+    box-shadow:0 0 10px 10px rgba(167, 166, 133, 0.3) ;
+    border-radius: 10px;
+    position: relative;
+    left: 5px;
+}
