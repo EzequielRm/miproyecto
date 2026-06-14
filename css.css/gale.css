@@ -1,0 +1,60 @@
+.titmai {
+    color: rgb(218, 129, 14);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.tit {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.foto {
+    box-shadow: 0 0 8px rgba(201, 162, 21, 0.25);
+    flex: 1 1 260px;
+    min-width: 220px;
+    max-width: 320px;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(26, 25, 23, 0.2);
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.foto h3 {
+    margin: 0.5rem 0;
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(216, 27, 27);
+}
+
+.foto p {
+    margin: 0;
+    text-align: center;
+    font-size: 0.95rem;
+    color: rgba(77, 56, 13, 0.9);
+}
+
+@media screen and (max-width: 900px) {
+    .tit {
+        gap: 0.75rem;
+    }
+
+    .foto {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
