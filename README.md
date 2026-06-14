@@ -1,4 +1,4 @@
-# Página oficial de AnimAl
+# Página oficial de Animal
 Enlace de demostración: https://ezequielrm.github.io/web-animal/
 
 ## Acerca del proyecto
