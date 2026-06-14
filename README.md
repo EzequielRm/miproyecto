@@ -1,5 +1,5 @@
 # Página oficial de AnimAl
-Enlace de demostración: https://ezequielrm.github.io/miproyecto/
+Enlace de demostración: https://ezequielrm.github.io/web-animal/
 
 ## Acerca del proyecto
 AnimAl es un sitio web estático que muestra mascotas en adopción y facilita el contacto con refugios y personas interesadas en adoptar.
